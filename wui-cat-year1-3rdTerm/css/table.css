@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Roboto:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    /* border:2px solid red; */
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main .header{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    font: size 26px;
+    border-bottom: 2px solid black;
+}
+
+.main .footer{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    font: size 26px;
+    align-items: center;
+}
+
+.main .footer button{
+    background-color: #c0dae9;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border:none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+}
+
+.main-content .product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product .p-image{
+    width: 100px;
+    height: 100px;
+}
+
+.color{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.color button{
+    margin-left: 10px;
+    font-size: 20px;
+    border: 2px solid #7599e9;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    color: #7599e9;
+}
+.cart p{
+    color:black;
+}
+
+.main-desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom:2px solid;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
