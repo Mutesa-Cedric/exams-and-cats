@@ -5,6 +5,7 @@
 
 struct person
 {
+    
     char name[20];
     char address[20];
     char dob[20];
